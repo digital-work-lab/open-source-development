@@ -24,13 +24,13 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 
 ## Preparation
 
-- [x] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
-- [x] Advertise the project in the lecture or other courses based on the [mailing](mailings.html#advertising) - check if not applicable
-- [x] Update dates and rooms for sessions
-- [x] Update the rating average in the badge (change the badge-link on index.md) and participation
-- [x] Review the [pedagogical concept](pedagogy.html) in preparation of the project
-- [x] Check whether `pre-commit run --all` runs without errors in Codespaces
-- [x] Check whether `colrev package --init` works
+- [ ] Announce project on [instagram](https://www.instagram.com/informatik_unibamberg/){: target="_blank"}
+- [ ] Advertise the project in the lecture or other courses based on the [mailing](mailings.html#advertising) - check if not applicable
+- [ ] Update dates and rooms for sessions
+- [ ] Update the rating average in the badge (change the badge-link on index.md) and participation
+- [ ] Review the [pedagogical concept](pedagogy.html) in preparation of the project
+- [ ] Check whether `pre-commit run --all` runs without errors in Codespaces
+- [ ] Check whether `colrev package --init` works
 
 <details markdown="block">
 <summary>Student communication notes</summary>
@@ -50,18 +50,18 @@ Based on the [pedagogical concept](pedagogy.html). Administrative tasks are [her
 
 ## Week 1: Topics <a id="topics"></a>
 
-- [x] Send out [welcome and information mailing](mailings.html#welcome) before the first session
-- [x] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, summarize our improvements from last semester
+- [ ] Send out [welcome and information mailing](mailings.html#welcome) before the first session
+- [ ] Link the [feedback issue](https://github.com/digital-work-lab/open-source-project/issues){: target="_blank"} in VC, explain our process of evaluation and improvement, summarize our improvements from last semester
 
 ## Week 2: Git  <a id="git"></a>
 
-- [x] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
-- [x] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
-- [x] Send out [comment-on-issues mailing](mailings.html#comment-issues)
+- [ ] Check whether the `rec_dict.patch` applies (`git diff > rec_dict.patch`)
+- [ ] Print some of the [overviews](https://github.com/digital-work-lab/practice-git/blob/main/notebooks/img/overview-task.pdf){: target="_blank"}
+- [ ] Send out [comment-on-issues mailing](mailings.html#comment-issues)
 
 ## Week 3: Python <a id="python"></a>
 
-- [x] Prepare the `tutorial_python` branch and update the commit-SHAs in the notebooks
+- [ ] Prepare the `tutorial_python` branch and update the commit-SHAs in the notebooks
 
 <details markdown="block">
 <summary>Python prep</summary>
@@ -78,7 +78,7 @@ git push -f
 When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.toml, poetry add bibtexparser
 </details>
 
-- [x] Create a list of topics and students (first/second choice) and facilitate issue discussions
+- [ ] Create a list of topics and students (first/second choice) and facilitate issue discussions
 
 <details markdown="block">
 <summary>Facilitating issue discussions</summary>
@@ -89,13 +89,13 @@ When the poetry.lock/pyproject.toml fail: checkout --ours poetry.lock/pyproject.
 
 ## Week 4: Group work (no session)
 
-- [x] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
-- [x] Send out the [prep-best-practices mailing](mailings.html#prep-best-practice)
+- [ ] Distribute the [survey](../assets/Interim_Project_Assessment_Survey.docx) via VC, asking students to upload it (upload box).
+- [ ] Send out the [prep-best-practices mailing](mailings.html#prep-best-practice)
 - [ ] In the issue feeds, ask students to link their fork
 
 ## Week 5: Best practices <a id="best-practices"></a>
 
-- [x] Review responses from the survey and prepare the session
+- [ ] Review responses from the survey and prepare the session
 
 ## Weeks 6-11: Group work / Hacking sessions
 
@@ -106,27 +106,27 @@ Guidelines for the hacking sessions:
 
 ## Week 7
 
-- [x] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
+- [ ] Send out [hacking-sessions mailing](mailings.html#hacking-sessions)
 
 ## Week 10
 
-- [x] Send out [pull-request mailing](mailings.html#pull-request)
-- [x] Send out [evaluation mailing](mailings.html#evaluation)
+- [ ] Send out [pull-request mailing](mailings.html#pull-request)
+- [ ] Send out [evaluation mailing](mailings.html#evaluation)
 
 ## Week 12: Code review <a id="code-review"></a>
 
 {: .highlight }
 > The code review session should be in my office (with a Computer screen connected via a long HDMI cable).
 
-- [x] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
-- [x] Check whether connectors (e.g., HDMI) are required and provide them
-- [x] If projects require access tokens (API keys), provide them to the group
-- [x] Remind students to complete the evaluation
+- [ ] Print and pre-fill [evaluation sheets](https://github.com/digital-work-lab/open-source-project/tree/main/assets/evaluation){: target="_blank"}
+- [ ] Check whether connectors (e.g., HDMI) are required and provide them
+- [ ] If projects require access tokens (API keys), provide them to the group
+- [ ] Remind students to complete the evaluation
 
 After the session:
 
-- [x] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or adding suggestions)
-- [x] Include a summary of todos in the pull request
+- [ ] For implementing the feedback from the pull request, we should ensure that efforts are fair between teams (e.g., selecting issues to address or adding suggestions)
+- [ ] Include a summary of todos in the pull request
 
 ```
 Hello @x, @y,
@@ -143,6 +143,6 @@ If there is anything I can help with, please let me know 👏
 
 After feedback was implemented by the students
 
-- [x] Send out [project completion mailing](mailings.html#completion-post)
-- [x] Notify students about the option to observe the merge and release process (Zoom meeting)
-- [x] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
+- [ ] Send out [project completion mailing](mailings.html#completion-post)
+- [ ] Notify students about the option to observe the merge and release process (Zoom meeting)
+- [ ] Merge pull requests and add contributors (see [merge-notes](merge_notes.html))
